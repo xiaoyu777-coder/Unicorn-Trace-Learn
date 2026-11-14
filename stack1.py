@@ -18,7 +18,6 @@ sub esp, 4
 push eax
 mov eax, 0x8911
 pop eax
-add esp, 4
 """.strip()
 
 code_data, count = asm.asm(assembly)
